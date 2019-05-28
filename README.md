@@ -1,17 +1,17 @@
-# sensor_vuelo
-Sensor para datos de vuelo de dron
+# sensor_timbre
+Sensor para timbre inalambrico
 
 ## Descripcion
 
-Por medio de la conexion con un dron, se permite enviar los datos de vuelo por medio de ttn. De manera que se pueda recopilar toda informacion necesaria en determinados escenarios
+Por medio de la conexion con ESPNow, se permite enviar los datos del botom del dispositivo que está transmitiendo (Master) y que lo reciba el que escucha (slave) reproduciendo un sonido.
 
 
 |Item|Respuesta|
 |----|-------|
-|Nombre de proyecto|Sensor de datos de vuelo para un dron|
-|Descripción|Se desea por medio de un sensor de rayería, contar la frecuencia de eventos y de dispositivos que alerten a guardaparques en el campo. Existen **dos componentes** principales, el **sensor** de rayería y el dispositivo de **alerta**|
-|Case|Sensor: Case IP profesional, con antena externa. Alerta: Case en epoxy transparente|
-|Solar o alimentación alternativa|Solar y batería grande para sensor de rayería, carga inductiva para dispositivos de alerta|
+|Nombre de proyecto|Sensor para timbre inalambrico|
+|Descripción|Se desea por medio de un sensor que emite y otro que escucha, realizar un timbre inalámbrico, esto por medio de ESPNow|
+|Case|Sensor: Case con salida de un botom de tacto o presión, case de recepción con parlante incorporado|
+|Solar o alimentación alternativa|Alimentación y batería grande para ambos sensores|
 |Presentación de datos al usuario|Existen gráficas de AdafruitIO. Los dispositivos de alerta tienen una pantalla con el número de eventos en la última hora|
 |Entrada de datos por el usuario|Ninguno|
 |Etapas: 1.|Prueba en San José: Solo un sensor de rayería, un dispositivo de alerta. Comparar con [Lightning maps](https://www.lightningmaps.org/)|
