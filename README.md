@@ -16,7 +16,7 @@ Por medio de la conexion con ESPNow, se permite enviar los datos del botom del d
 |Entrada de datos por el usuario|Ninguno|
 |Etapas: 1.|Se prueba la conectividad de ESPNow en la que se active un led cuando reciba la senal|
 |Etapas: 2.|Se implementa la tarjeta de audio y el parlante necesario para reproducir el sonido.|
-|Etapas: 3.|Futuro: Realizar la implementacion de una interfaz en pantalla que muestre la alerta de timbre y el nombre de la familia|
+|Etapas: 3.|Futuro: Realizar la implementacion de una interfaz en pantalla que muestre la alerta de timbre y el nombre de la familia, tambien su aplicacion con TTN que permita por algun medio jalar una alerta como mensaje de texto que indique que se toco el timbre, tambien complementar con alguna sistema con camara para visualizar quien esta en la puerta|
 |Hardware: Dispositivo de Alerta|TTGO-TBeam, Adafruit Audio FX, Parlante generico|
 |Hardware: Dispositivo Sensor|TTGO ESP32+OLED, batería, cargador inductivo. Alertas visuales y auditivas a definir.|
 |Servicios|ESPNow|
