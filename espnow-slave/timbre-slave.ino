@@ -5,7 +5,7 @@
 //Pinos que iremos escrever (digitalWrite) cujos valores são recebios do Master
 //É importante que o código fonte do Master tenha este mesmo array com os mesmos gpios
 //na mesma ordem
-uint8_t gpios[] = {0, 14};
+uint8_t gpios[] = {2, 14};
  
 //No setup iremos calcular a quantidade de pinos e colocar nesta variável,
 //assim não precisamos trocar aqui toda vez que mudarmos a quantidade de pinos,
