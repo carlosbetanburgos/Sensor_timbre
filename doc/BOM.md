@@ -1,6 +1,6 @@
 # Bill-of-Material
 
-Lista de materiales para el proyecto del Sensor de vuelo para dron
+Lista de materiales para el proyecto del Sensor de timbre.
 
 | Cantidad     | Item       | Enlace | Precio |
 |--------------|------------|--------|--------|
