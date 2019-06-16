@@ -22,3 +22,6 @@ Por medio de la conexion con ESPNow, se permite enviar los datos del botom del d
 |Servicios|ESPNow|
 |Software|En Arduino|
 |Posibles problemas|Se necesita realizar una instalación electrica estable y en donde no sea posible alcanzar para personas del exterior, para evitar hurtos y desconexiones|
+
+La aplicación del proyecto es buscar una manera de simplificar la implementación de un timbre en los diferentes hogares, de manera que no sea necesario tanta instalación de cables, y el cual pueda ser implementado en cualquier habitación de la casa.
+El proyecto surge por la necesidad de los mismo, no existe un timbre en mi casa y se complica instalar uno, además en el trabajo existe solo 1 instalado y no se escucha en todo el edificion, por lo que aplicando la tecnología de ESPNOW se pueden conectar hasta 20 dispositivos slave al mismo master, suficientes para colocar 1 en cada habitación. 
